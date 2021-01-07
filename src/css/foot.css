@@ -1,0 +1,34 @@
+/*  Min width 430px */
+
+.foot {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+.foot-img {
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.foot-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height:  4rem;
+}
+
+.foot-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.foot-list-item li {
+   margin-top: .5rem;
+   margin-bottom: .5rem;
+}
