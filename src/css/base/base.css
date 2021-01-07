@@ -1,0 +1,11 @@
+@import url(_var.css);
+@import url(reset.css);
+
+body {
+    /* font-family: var(--familia-corpo); */
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
